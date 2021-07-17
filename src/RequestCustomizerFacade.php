@@ -1,13 +1,13 @@
 <?php
 
-namespace Mawuekom\LaravelRequestCustomizer;
+namespace Mawuekom\RequestCustomizer;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Mawuekom\LaravelRequestCustomizer\Skeleton\SkeletonClass
+ * @see \Mawuekom\RequestCustomizer\Skeleton\SkeletonClass
  */
-class LaravelRequestCustomizerFacade extends Facade
+class RequestCustomizerFacade extends Facade
 {
     /**
      * Get the registered name of the component.

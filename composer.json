@@ -5,7 +5,7 @@
         "mawuekom",
         "laravel-request-customizer"
     ],
-    "homepage": "https://github.com/mawuekom/laravel-request-customizer",
+    "homepage": "https://github.com/mawuva/laravel-request-customizer",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Mawuekom\\LaravelRequestCustomizer\\": "src"
+            "Mawuekom\\RequestCustomizer\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mawuekom\\LaravelRequestCustomizer\\Tests\\": "tests"
+            "Mawuekom\\RequestCustomizer\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mawuekom\\LaravelRequestCustomizer\\LaravelRequestCustomizerServiceProvider"
+                "Mawuekom\\RequestCustomizer\\RequestCustomizerServiceProvider"
             ],
             "aliases": {
-                "LaravelRequestCustomizer": "Mawuekom\\LaravelRequestCustomizer\\LaravelRequestCustomizerFacade"
+                "RequestCustomizer": "Mawuekom\\RequestCustomizer\\RequestCustomizerFacade"
             }
         }
     }

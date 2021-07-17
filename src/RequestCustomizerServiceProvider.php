@@ -1,10 +1,10 @@
 <?php
 
-namespace Mawuekom\LaravelRequestCustomizer;
+namespace Mawuekom\RequestCustomizer;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelRequestCustomizerServiceProvider extends ServiceProvider
+class RequestCustomizerServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -54,7 +54,7 @@ class LaravelRequestCustomizerServiceProvider extends ServiceProvider
 
         // Register the main class to use with the facade
         $this->app->singleton('laravel-request-customizer', function () {
-            return new LaravelRequestCustomizer;
+            return new RequestCustomizer;
         });
     }
 }
