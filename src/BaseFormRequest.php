@@ -1,6 +1,6 @@
 <?php
 
-namespace Mawuekom\RequestCustomizer\Requests;
+namespace Mawuekom\RequestCustomizer;
 
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Contracts\Validation\Validator;
@@ -12,7 +12,7 @@ use Mawuekom\FormRequest\Http\FormRequest;
 /**
  * Abstract Class BaseFormRequest
  * 
- * @package Mawuekom\RequestCustomizer\Requests
+ * @package Mawuekom\RequestCustomizer
  */
 abstract class BaseFormRequest extends FormRequest
 {
